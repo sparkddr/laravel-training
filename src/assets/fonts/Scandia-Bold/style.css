@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Scandia';
+    src: local('Scandia Bold'), local('Scandia-Bold'),
+        url('Scandia-Bold.woff2') format('woff2'),
+        url('Scandia-Bold.woff') format('woff'),
+        url('Scandia-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }

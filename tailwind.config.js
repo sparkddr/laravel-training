@@ -12,6 +12,15 @@ module.exports = {
         laragrey: "#565454",
         larablack: "#232323",
       },
+      keyframes: {
+        updown: {
+          "0%, 100%": { transform: "translateY(7px)" },
+          "50%": { transform: "translateY(-7px)" },
+        },
+      },
+      animation: {
+        updown: "updown 5s ease-in-out infinite",
+      },
     },
   },
   plugins: [],

@@ -44,11 +44,9 @@ const Navbar = () => {
             className="w-7 lg:hidden cursor-pointer "
           />
         )}
-
-        <Button
-          text="DOCUMENTATION"
-          className="hidden lg:inline-block h-9 mb-0"
-        />
+        <Button className="h-9 mb-0" hidden="hidden lg:inline-block ">
+          DOCUMENTATION
+        </Button>
       </div>
       <div
         className={
@@ -70,11 +68,15 @@ const Navbar = () => {
           <li className="mt-6">
             <a href="https://partners.laravel.com/">Partners</a>
           </li>
-          <li className="mt-6">
+          <li className="mt-6 flex">
             <Button
-              text="DOCUMENTATION"
-              className="block mb-0 m-auto w-5/6 sm:w-2/4 text-center"
-            />
+              link="https://laravel.com/docs"
+              hidden="block w-5/6 sm:w-2/4 m-auto  text-center"
+              className="block m-auto w-full"
+              // className="block mb-0 m-auto w-5/6 sm:w-2/4 text-center"
+            >
+              DOCUMENTATION
+            </Button>
           </li>
         </ul>
       </div>

@@ -21,6 +21,10 @@ module.exports = {
       animation: {
         updown: "updown 5s ease-in-out infinite",
       },
+      backgroundImage: {
+        gradientred:
+          "radial-gradient(50% 50% at 50% 50%,#eb4432 0,hsla(0,0%,100%,0) 100%)",
+      },
     },
   },
   plugins: [],

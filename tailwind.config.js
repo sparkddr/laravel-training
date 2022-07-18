@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         larared: "#F9322C",
         laragrey: "#565454",
+        larablack: "#232323",
       },
     },
   },

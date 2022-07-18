@@ -1,5 +1,9 @@
 import Navbar from "../components/Navbar";
 import Button from "../components/Button";
+import Library from "../components/Library";
+import Testimony from "../components/Testimony";
+
+import testimonyList from "../assets/testimony";
 
 import IconData from "../assets/ICONS/DATABASE.svg";
 
@@ -41,7 +45,7 @@ function Home() {
         <img src={WarnerLogo} alt="warner-bros logo" className="h-8" />
         <img src={NytLogo} alt="New York Timex logo" className="h-7" />
       </div>
-      {/* Section 1 */}
+      {/* Section 1 Write code for the joy */}
       <section className="lg:flex lg:flex-row-reverse max-w-6xl lg:m-auto">
         <div className="overflow-hidden ml-10 mb-10">
           <svg
@@ -131,7 +135,7 @@ function Home() {
           <Button text="START LEARNING" />
         </div>
       </section>
-      {/* Section 2 */}
+      {/* Section 2 Monolith or Api  */}
       <section className="mt-40 lg:flex lg:flex-row max-w-6xl lg:mx-auto ">
         <div className="overflow-hidden lg:flex lg:items-center  mb-10 ">
           <svg
@@ -264,7 +268,7 @@ function Home() {
           <Button text="STARTER KITS" />
         </div>
       </section>
-      {/* Section 3 */}
+      {/* Section 3 Everything you need */}
       <section className="mt-36 md:pt-10 max-w-7xl mx-auto">
         <h2 className=" mt-14 lg:mt-0 px-5   sm:max-w-xl ">
           Everything you need to be amazing.
@@ -330,7 +334,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Section 4 */}
+      {/* Section 4 Move fast */}
       <section className="mt-32 lg:flex lg:flex-row max-w-6xl lg:mx-auto ">
         <div className="overflow-hidden  ">
           <svg
@@ -411,6 +415,124 @@ function Home() {
             testing let you ship with confidence.
           </p>
           <Button text="LEARN MORE" />
+        </div>
+      </section>
+
+      {/* Section 5 Entreprise Scale*/}
+      <section className="pt-32 max-w-7xl m-auto">
+        <h2 className=" mt-14 lg:mt-0 pl-5 sm:max-w-xl">
+          Enterprise scale without the enterprise complexity.
+        </h2>
+        <p className="pl-5 mt-8 sm:max-w-xl">
+          Our vast library of meticulously maintained packages means you're
+          ready for anything. Let{" "}
+          <a href="https://laravel.com/docs/octane" className="underline">
+            Laravel Octane
+          </a>{" "}
+          supercharge your application's performance, and experience infinite
+          scale on{" "}
+          <a href="https://vapor.laravel.com/" className="underline">
+            Laravel Vapor
+          </a>
+          , our serverless deployment platform powered by AWS Lambda.
+        </p>
+        <div>
+          <div className="grid md:grid-cols-2 px-5 gap-6 mt-10 text-sm">
+            <Library title="Forge" color="bg-emerald-400 " pb="pb-5">
+              Server management doesn't have to be a nightmare. Provision and
+              deploy unlimited PHP applications on DigitalOcean, Linode, Vultr,
+              Amazon, Hetzner and more.
+            </Library>
+            <Library title="Vapor" color="bg-cyan-400	" pb="pb-5">
+              Laravel Vapor is a serverless deployment platform for Laravel,
+              powered by AWS. Launch your Laravel infrastructure on Vapor and
+              fall in love with the scalable simplicity of serverless.
+            </Library>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 px-5 gap-6 mt-10 text-sm">
+            <Library title="Breeze" color="bg-amber-400	">
+              Lightweight starter kit scaffolding for new applications with
+              Blade or Inertia.
+            </Library>
+            <Library title="Cashier" color="bg-lime-300	">
+              Take the pain out of managing subscriptions on Stripe or Paddle.
+            </Library>
+            <Library title="Dusk" color="bg-fuchsia-700	">
+              Take the pain out of managing subscriptions on Stripe or Paddle.
+            </Library>
+            <Library title="Echo" color="bg-teal-400	">
+              Listen for WebSocket events broadcast by your Laravel application.
+            </Library>
+            <Library title="Envoyer" color="bg-red-400	">
+              Deploy your Laravel applications to customers with zero downtime.
+            </Library>
+            <Library title="Horizon" color="bg-violet-400	">
+              Beautiful UI for monitoring your Redis driven Laravel queues.
+            </Library>
+            <Library title="Jetstream" color="bg-indigo-500	">
+              Robust starter kit including authentication and team management.
+            </Library>
+            <Library title="Mix" color="bg-blue-900	">
+              Compile your JavaScript and CSS using Webpack with zero
+              configuration.
+            </Library>
+            <Library title="Nova" color="bg-sky-600	">
+              Thoughtfully designed administration panel for your Laravel
+              applications.
+            </Library>
+            <Library title="Octane" color="bg-orange-700	">
+              Supercharge your application's performance by keeping it in
+              memory.
+            </Library>
+            <Library title="Sail" color="bg-cyan-400	">
+              Hand-crafted Laravel local development experience using Docker.
+            </Library>
+            <Library title="Sanctum" color="bg-teal-900	">
+              API and mobile application authentication without wanting to pull
+              your hair out.
+            </Library>
+            <Library title="Scout" color="bg-red-400	">
+              Lightning fast full-text search for your application's Eloquent
+              models.
+            </Library>
+            <Library title="Socialite" color="bg-pink-300	">
+              Social authentication via Facebook, Twitter, GitHub, LinkedIn, and
+              more.
+            </Library>
+            <Library title="Spark" color="bg-violet-400	">
+              Launch your next business with our fully-featured, drop-in billing
+              portal.
+            </Library>
+            <Library title="Telescope" color="bg-indigo-700	">
+              Debug your application using our debugging and insight UI.
+            </Library>
+            <Library title="Valet" color="bg-violet-800	">
+              The fastest Laravel local development experience - exclusively for
+              macOS.
+            </Library>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 6 Loved by thousands of developers */}
+      <section className="pt-40 px-5">
+        <h2 className="text-center">
+          Loved by thousands of developers around the world.
+        </h2>
+        <div className="columns-1 md:columns-2 lg:columns-3 gap-5 space-y-5 mt-14">
+          {testimonyList.map((testimony) => {
+            return (
+              <Testimony
+                author={testimony.author}
+                img={testimony.img}
+                description={testimony.description}
+                entreprise={testimony.entreprise}
+                link={testimony.link}
+              >
+                {testimony.text}
+              </Testimony>
+            );
+          })}
         </div>
       </section>
     </div>

@@ -76,7 +76,7 @@ function Home() {
       </div>
       {/* Section 1 Write code for the joy */}
       <section className="relative  overflow-x-clip lg:pt-28">
-        <div class="hidden absolute bg-gradientred opacity-[.15] pointer-events-none lg:block right-[-20%] top-0 w-[640px] h-[640px]"></div>
+        <div className="hidden absolute bg-gradientred opacity-[.15] pointer-events-none lg:block right-[-20%] top-0 w-[640px] h-[640px]"></div>
         <Cube className="hidden lg:block lg: top-16 lg:right-1/3" />
         <Cube className="hidden lg:block lg:-right-2 lg:bottom-20" />
         <Cube className="hidden lg:block lg:top-52 lg:right-2/4" />
@@ -184,95 +184,95 @@ function Home() {
           >
             <path
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
               d="M215 124h100v86H215zM1 124h100v86H1zM345 124h100v86H345zM131 124h54v86h-54z"
             ></path>
             <path
               fill="#fff"
               stroke="#565454"
-              stroke-width="2"
+              strokeWidth="2"
               d="M223 132h100v86H223zM9 132h100v86H9zM353 132h100v86H353zM139 132h54v86h-54z"
             ></path>
             <path
               d="M278.571 177.947c-4.461 7.651-10.385 12.535-13.232 10.907-2.846-1.627-1.538-9.15 2.924-16.801 4.46-7.651 10.385-12.535 13.231-10.907 2.847 1.627 1.539 9.15-2.923 16.801Z"
               stroke="#232323"
-              stroke-width="1.667"
+              strokeWidth="1.667"
             ></path>
             <path
               d="M257.167 175c0 3.222 7.089 5.833 15.833 5.833 8.745 0 15.833-2.611 15.833-5.833s-7.088-5.833-15.833-5.833c-8.744 0-15.833 2.611-15.833 5.833Z"
               stroke="#232323"
-              stroke-width="1.667"
+              strokeWidth="1.667"
             ></path>
             <path
               d="M267.429 177.947c4.461 7.651 10.385 12.535 13.232 10.907 2.847-1.627 1.538-9.15-2.923-16.801-4.461-7.651-10.385-12.535-13.232-10.907-2.847 1.627-1.538 9.15 2.923 16.801Z"
               stroke="#232323"
-              stroke-width="1.667"
+              strokeWidth="1.667"
             ></path>
             <path
               d="M273 177.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
               stroke="#232323"
-              stroke-width="1.667"
+              strokeWidth="1.667"
             ></path>
             <path
               d="m403 165.678-2.938-4.845H395.5l7.5 12.5 7.5-12.5h-4.563l-2.938 4.845H403Z"
               stroke="#232323"
-              stroke-width="1.667"
-              stroke-linejoin="round"
+              strokeWidth="1.667"
+              strokeLinejoin="round"
             ></path>
             <path
               d="M414.173 160.833 403 179.152l-11.173-18.319H385.5l17.5 28.334 17.5-28.334h-6.327Z"
               stroke="#232323"
-              stroke-width="1.667"
-              stroke-linejoin="round"
+              strokeWidth="1.667"
+              strokeLinejoin="round"
             ></path>
-            <path stroke="#565454" stroke-width="2" d="M229 138h5"></path>
+            <path stroke="#565454" strokeWidth="2" d="M229 138h5"></path>
             <path
               d="M219.625 39.375v7.875m-15.75-34.875 7.875-4.5 7.875 4.5-7.875 4.5-7.875-4.5Zm15.75 0v18-18Z"
               stroke="currentColor"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             ></path>
             <path
               d="M203.875 12.375V38.25l15.75 9 15.75-9V21.375"
               stroke="currentColor"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             ></path>
             <path
               d="M211.75 16.875v18l7.875 4.5 23.625-13.5v-9"
               stroke="currentColor"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             ></path>
             <path
               d="m227.5 16.875 7.875-4.5 7.875 4.5-7.875 4.5-7.875-4.5Zm0 0v9m0 0 7.875 4.5m-7.875-4.5-15.75 9"
               stroke="currentColor"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             ></path>
             <path
               stroke="#565454"
-              stroke-width="2"
+              strokeWidth="2"
               d="M237 138h5M163 139h6M245 138h5M15 138h5M359 138h5M23 138h5M367 138h5M31 138h5M375 138h5"
             ></path>
             <path
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
               d="M394 124V94M264 124V94M50 124V94M222 94V64M157 124V94M49 94h346"
             ></path>
             <path
               d="M71.69 185.017c-.086.134-.177.281-.259.415l-.134.217a4.263 4.263 0 0 1-.372.523c-.221.254-.41.357-.683.357-.473 0-.755-.311-1.33-1.153l-.059-.086c-.466-.686-1.22-1.794-2.652-1.794-1.458 0-2.156 1.144-2.574 1.83l-.052.085c-.518.844-.755 1.118-1.202 1.118-.473 0-.755-.311-1.33-1.153l-.059-.086c-.466-.686-1.22-1.794-2.651-1.794-1.46 0-2.157 1.144-2.575 1.83l-.052.085c-.518.844-.755 1.118-1.202 1.118-.473 0-.755-.311-1.33-1.153l-.059-.086c-.466-.686-1.22-1.794-2.651-1.794-1.46 0-2.156 1.144-2.575 1.83l-.052.085c-.518.844-.755 1.118-1.202 1.118-.273 0-.488-.106-.74-.371a15.965 15.965 0 0 1-2.06-7.892c0-8.561 6.603-15.431 14.665-15.431s14.665 6.87 14.665 15.431c0 2.423-.53 4.714-1.474 6.751Z"
               stroke="#232323"
-              stroke-width="1.67"
+              strokeWidth="1.67"
             ></path>
             <path
               d="M64.494 174.755c0 2.088-.534 3.748-1.586 4.881-1.041 1.122-2.707 1.852-5.24 1.852-2.531 0-4.197-.73-5.238-1.852-1.052-1.133-1.586-2.793-1.586-4.881 0-4.084 3.154-7.693 6.825-7.693 3.671 0 6.825 3.609 6.825 7.693Z"
               stroke="#232323"
-              stroke-width="1.67"
+              strokeWidth="1.67"
             ></path>
             <path
               d="M55.609 175.006c1.586 0 2.872-1.419 2.872-3.17s-1.286-3.171-2.872-3.171c-1.587 0-2.873 1.42-2.873 3.171s1.287 3.17 2.873 3.17Z"
@@ -311,7 +311,7 @@ function Home() {
       </section>
       {/* Section 3 Everything you need */}
       <section className="relative overflow-x-clip ">
-        <div class="hidden absolute bg-gradientred opacity-[.15] pointer-events-none lg:block right-[-20%] -top-32 w-[640px] h-[640px]"></div>
+        <div className="hidden absolute bg-gradientred opacity-[.15] pointer-events-none lg:block right-[-20%] -top-32 w-[640px] h-[640px]"></div>
         <div className="mt-36 md:pt-10 max-w-7xl mx-auto">
           <h2 className=" mt-14 lg:mt-0 px-5   sm:max-w-xl ">
             Everything you need to be amazing.
@@ -324,7 +324,7 @@ function Home() {
                 height="32px"
                 alt="databaseicon"
               />
-              <h3 class="text-xl font-bold mt-4">Database</h3>
+              <h3 className="text-xl font-bold mt-4">Database</h3>
               <p className="mt-4">
                 Laravel's{" "}
                 <a
@@ -346,7 +346,7 @@ function Home() {
                 height="32px"
                 alt="databaseicon"
               />
-              <h3 class="text-xl font-bold mt-4">Queues</h3>
+              <h3 className="text-xl font-bold mt-4">Queues</h3>
               <p className="mt-4 text-sm leading-6">
                 Dispatch background jobs to perform slow tasks like sending
                 emails and generating reports while maintaining blazing fast
@@ -365,7 +365,7 @@ function Home() {
                 height="32px"
                 alt="databaseicon"
               />
-              <h3 class="text-xl font-bold mt-4">WebSockets</h3>
+              <h3 className="text-xl font-bold mt-4">WebSockets</h3>
               <p className="mt-4">
                 <a
                   href="https://laravel.com/docs/broadcasting"
@@ -390,7 +390,7 @@ function Home() {
                 height="32px"
                 alt="databaseicon"
               />
-              <h3 class="text-xl font-bold mt-4">Authentication</h3>
+              <h3 className="text-xl font-bold mt-4">Authentication</h3>
               <p className="mt-4">
                 Stop sweating authentication. Laravel provides scaffolding for
                 secure, session based authentication, while{" "}
@@ -413,7 +413,7 @@ function Home() {
         <Cube className="hidden lg:block lg:-top-4 lg:right-2/4" />
         <Cube className="hidden lg:block lg:left-1/3 lg:-bottom-16" />
         <Cube className="hidden lg:block lg:top-20 lg:left-2" />
-        <div class="hidden absolute bg-gradientred opacity-[.15] pointer-events-none lg:inline-flex left-[-20%] -top-52 w-[640px] h-[640px]"></div>
+        <div className="hidden absolute bg-gradientred opacity-[.15] pointer-events-none lg:inline-flex left-[-20%] -top-52 w-[640px] h-[640px]"></div>
         <div className=" relative mt-60 mb-36 lg:flex lg:flex-row lg:justify-between max-w-7xl lg:mx-auto px-5 overflow-hidden">
           <div className=" lg:flex justify-center lg:w-1/2 mx-auto lg:-translate-x-4 ">
             <svg
@@ -703,7 +703,7 @@ function Home() {
       </section>
       {/* Section 7 A community */}
       <section className="relative">
-        <div class="hidden absolute bg-gradientred opacity-[.15] pointer-events-none lg:block left-[-20%] -top-0 w-[640px] h-[640px]"></div>
+        <div className="hidden absolute bg-gradientred opacity-[.15] pointer-events-none lg:block left-[-20%] -top-0 w-[640px] h-[640px]"></div>
         <div className="relative pt-40 px-5 lg:flex xl:px-0 max-w-7xl justify-between m-auto">
           <div className="flex flex-col  justify-center  sm:max-w-xl  xl:ml-0 mx-auto lg:mx-0 lg:justify-self-start ">
             <h2>A community built for people like you.</h2>
@@ -716,7 +716,7 @@ function Home() {
             <ul className="mt-14 text-laragrey grid grid-cols-2 gap-9 md:grid-cols-3">
               <li className="flex space-x-3 items-center ">
                 <svg
-                  class="text-red-600 w-8 h-8"
+                  className="text-red-600 w-8 h-8"
                   viewBox="0 0 32 32"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -725,15 +725,15 @@ function Home() {
                   <path
                     d="M10 9c7.18 0 13 5.82 13 13m-13-7a7 7 0 0 1 7 7m-6 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
                 <a href="https://blog.laravel.com/">Blog</a>
               </li>
               <li className="flex space-x-3 items-center ">
                 <svg
-                  class="text-red-600 w-8 h-8"
+                  className="text-red-600 w-8 h-8"
                   viewBox="0 0 32 32"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -742,15 +742,15 @@ function Home() {
                   <path
                     d="M11 12h10-10Zm0 4h4-4Zm5 8-4-4H9a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3l-4 4Z"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
                 <a href="https://laracasts.com/discuss">Forums</a>
               </li>
               <li className="flex space-x-3 items-center ">
                 <svg
-                  class="text-red-600 w-8 h-8"
+                  className="text-red-600 w-8 h-8"
                   viewBox="0 0 32 32"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -759,15 +759,15 @@ function Home() {
                   <path
                     d="M25 17.255A23.93 23.93 0 0 1 16 19c-3.183 0-6.22-.62-9-1.745M16 16h.01M20 10V8a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2h8ZM9 24h14a2 2 0 0 0 2-2V12a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2Z"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
                 <a href="https://larajobs.com/">Jobs</a>
               </li>
               <li className="flex space-x-3 items-center ">
                 <svg
-                  class="text-red-600 w-8 h-8"
+                  className="text-red-600 w-8 h-8"
                   viewBox="0 0 32 32"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -776,15 +776,15 @@ function Home() {
                   <path
                     d="M23 24H9a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V11m2 13a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-2m-4-3h-4m-2 12h6m-6-8h6v4h-6v-4Z"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
                 <a href="https://laravel-news.com/">Laravel News</a>
               </li>
               <li className="flex space-x-3 items-center ">
                 <svg
-                  class="text-red-600 w-8 h-8"
+                  className="text-red-600 w-8 h-8"
                   viewBox="0 0 32 32"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -793,14 +793,14 @@ function Home() {
                   <path
                     d="m18.752 15.168-3.197-2.132A1 1 0 0 0 14 13.87v4.263a1 1 0 0 0 1.555.832l3.197-2.132a.998.998 0 0 0 0-1.664v-.001Z"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                   <path
                     d="M25 16a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
                 <a href="https://laracasts.com/">Laracasts</a>

@@ -42,7 +42,7 @@ const Navbar = () => {
   };
   return (
     <nav className=" relative flex justify-between max-w-7xl m-auto z-30 ">
-      <div class=" hidden absolute bg-gradientred opacity-[.15] pointer-events-none lg:inline-flex left-[-20%] -top-24 w-[640px] h-[640px] z-10"></div>
+      <div className=" hidden absolute bg-gradientred opacity-[.15] pointer-events-none lg:inline-flex left-[-20%] -top-24 w-[640px] h-[640px] z-10"></div>
       <div className="flex  mx-5 my-4 ">
         <img src={Logoimg} alt="logo" className="w-15" />
         <img src={Logotype} alt="logo" className="w-15 mx-6" />

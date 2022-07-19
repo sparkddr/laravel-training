@@ -8,7 +8,7 @@ const Button = (props) => {
     >
       <button
         className={
-          "z-10 px-4 py-2 font-medium text-sm transition-all duration-200 group-hover:-translate-x-1 group-hover:-translate-y-1 relative ease-in-out" +
+          "z-10 px-4 py-2 font-medium text-sm transition-all duration-150 group-hover:-translate-x-1 group-hover:-translate-y-1 relative ease-in-out" +
           (props.color === "red"
             ? " text-white border border-larared  bg-larared "
             : " text-larared border border-larared bg-white ") +

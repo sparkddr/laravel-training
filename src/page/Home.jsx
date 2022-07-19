@@ -81,7 +81,7 @@ function Home() {
         <Cube className="hidden lg:block lg:-right-2 lg:bottom-20" />
         <Cube className="hidden lg:block lg:top-52 lg:right-2/4" />
         <div className="relative lg:flex lg:flex-row-reverse justify-between max-w-7xl lg:m-auto pl-5 overflow-hidden ">
-          <div className="ml-10  mb-10 -translate-x-20 sm:translate-x-0">
+          <div className="ml-10  mb-10 -translate-x-20 sm:translate-x-0 lg:translate-x-20">
             <svg
               className=" md:m-auto"
               width="587"
@@ -174,7 +174,7 @@ function Home() {
       </section>
       {/* Section 2 Monolith or Api  */}
       <section className="mt-40 lg:flex lg:flex-row max-w-6xl lg:mx-auto ">
-        <div className="overflow-hidden lg:flex lg:items-center  mb-10 ">
+        <div className="overflow-hidden lg:flex lg:items-center mx-auto  mb-10 ">
           <svg
             className="text-red-500 max-w-[300px] md:max-w-[484px]  mx-auto"
             height="219"
@@ -414,8 +414,8 @@ function Home() {
         <Cube className="hidden lg:block lg:left-1/3 lg:-bottom-16" />
         <Cube className="hidden lg:block lg:top-20 lg:left-2" />
         <div class="hidden absolute bg-gradientred opacity-[.15] pointer-events-none lg:inline-flex left-[-20%] -top-52 w-[640px] h-[640px]"></div>
-        <div className=" relative mt-32 lg:flex lg:flex-row lg:justify-between max-w-7xl lg:mx-auto px-5 overflow-hidden">
-          <div className=" lg:flex justify-center lg:w-1/2 mx-auto  ">
+        <div className=" relative mt-60 mb-36 lg:flex lg:flex-row lg:justify-between max-w-7xl lg:mx-auto px-5 overflow-hidden">
+          <div className=" lg:flex justify-center lg:w-1/2 mx-auto lg:-translate-x-4 ">
             <svg
               className="m-auto"
               width="484"
@@ -503,7 +503,7 @@ function Home() {
       </section>
 
       {/* Section 5 Entreprise Scale*/}
-      <section className="pt-32 max-w-7xl m-auto">
+      <section className="pt-1 lg:pt-32 max-w-7xl m-auto">
         <h2 className=" mt-14 lg:mt-0 pl-5 sm:max-w-xl">
           Enterprise scale without the enterprise complexity.
         </h2>
@@ -522,75 +522,153 @@ function Home() {
         </p>
         <div>
           <div className="grid md:grid-cols-2 px-5 gap-6 mt-10 text-sm">
-            <Library title="Forge" color="bg-emerald-400 " pb="pb-5">
+            <Library
+              link="https://forge.laravel.com/"
+              title="Forge"
+              color="bg-emerald-400 "
+              pb="pb-5"
+            >
               Server management doesn't have to be a nightmare. Provision and
               deploy unlimited PHP applications on DigitalOcean, Linode, Vultr,
               Amazon, Hetzner and more.
             </Library>
-            <Library title="Vapor" color="bg-cyan-400	" pb="pb-5">
+            <Library
+              link="https://vapor.laravel.com/"
+              title="Vapor"
+              color="bg-cyan-400	"
+              pb="pb-5"
+            >
               Laravel Vapor is a serverless deployment platform for Laravel,
               powered by AWS. Launch your Laravel infrastructure on Vapor and
               fall in love with the scalable simplicity of serverless.
             </Library>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 px-5 gap-6 mt-10 text-sm">
-            <Library title="Breeze" color="bg-amber-400	">
+            <Library
+              link="https://laravel.com/docs/9.x/starter-kits#laravel-breeze"
+              title="Breeze"
+              color="bg-amber-400	"
+            >
               Lightweight starter kit scaffolding for new applications with
               Blade or Inertia.
             </Library>
-            <Library title="Cashier" color="bg-lime-300	">
+            <Library
+              link="https://laravel.com/docs/9.x/billing"
+              title="Cashier"
+              color="bg-lime-300	"
+            >
               Take the pain out of managing subscriptions on Stripe or Paddle.
             </Library>
-            <Library title="Dusk" color="bg-fuchsia-700	">
+            <Library
+              link="https://laravel.com/docs/9.x/dusk"
+              title="Dusk"
+              color="bg-fuchsia-700	"
+            >
               Take the pain out of managing subscriptions on Stripe or Paddle.
             </Library>
-            <Library title="Echo" color="bg-teal-400	">
+            <Library
+              link="https://laravel.com/docs/9.x/broadcasting"
+              title="Echo"
+              color="bg-teal-400	"
+            >
               Listen for WebSocket events broadcast by your Laravel application.
             </Library>
-            <Library title="Envoyer" color="bg-red-400	">
+            <Library
+              link="https://envoyer.io/"
+              title="Envoyer"
+              color="bg-red-400	"
+            >
               Deploy your Laravel applications to customers with zero downtime.
             </Library>
-            <Library title="Horizon" color="bg-violet-400	">
+            <Library
+              link="https://laravel.com/docs/9.x/horizon"
+              title="Horizon"
+              color="bg-violet-400	"
+            >
               Beautiful UI for monitoring your Redis driven Laravel queues.
             </Library>
-            <Library title="Jetstream" color="bg-indigo-500	">
+            <Library
+              link="https://jetstream.laravel.com/"
+              title="Jetstream"
+              color="bg-indigo-500	"
+            >
               Robust starter kit including authentication and team management.
             </Library>
-            <Library title="Mix" color="bg-blue-900	">
+            <Library
+              link="https://laravel.com/docs/9.x/mix"
+              title="Mix"
+              color="bg-blue-900	"
+            >
               Compile your JavaScript and CSS using Webpack with zero
               configuration.
             </Library>
-            <Library title="Nova" color="bg-sky-600	">
+            <Library
+              link="https://nova.laravel.com/"
+              title="Nova"
+              color="bg-sky-600	"
+            >
               Thoughtfully designed administration panel for your Laravel
               applications.
             </Library>
-            <Library title="Octane" color="bg-orange-700	">
+            <Library
+              link="https://laravel.com/docs/9.x/octane"
+              title="Octane"
+              color="bg-orange-700	"
+            >
               Supercharge your application's performance by keeping it in
               memory.
             </Library>
-            <Library title="Sail" color="bg-cyan-400	">
+            <Library
+              link="https://laravel.com/docs/9.x/sail"
+              title="Sail"
+              color="bg-cyan-400	"
+            >
               Hand-crafted Laravel local development experience using Docker.
             </Library>
-            <Library title="Sanctum" color="bg-teal-900	">
+            <Library
+              link="https://laravel.com/docs/9.x/sanctum"
+              title="Sanctum"
+              color="bg-teal-900	"
+            >
               API and mobile application authentication without wanting to pull
               your hair out.
             </Library>
-            <Library title="Scout" color="bg-red-400	">
+            <Library
+              link="https://laravel.com/docs/9.x/scout"
+              title="Scout"
+              color="bg-red-400	"
+            >
               Lightning fast full-text search for your application's Eloquent
               models.
             </Library>
-            <Library title="Socialite" color="bg-pink-300	">
+            <Library
+              link="https://laravel.com/docs/9.x/socialite"
+              title="Socialite"
+              color="bg-pink-300	"
+            >
               Social authentication via Facebook, Twitter, GitHub, LinkedIn, and
               more.
             </Library>
-            <Library title="Spark" color="bg-violet-400	">
+            <Library
+              link="https://spark.laravel.com/"
+              title="Spark"
+              color="bg-violet-400	"
+            >
               Launch your next business with our fully-featured, drop-in billing
               portal.
             </Library>
-            <Library title="Telescope" color="bg-indigo-700	">
+            <Library
+              link="https://laravel.com/docs/9.x/telescope"
+              title="Telescope"
+              color="bg-indigo-700	"
+            >
               Debug your application using our debugging and insight UI.
             </Library>
-            <Library title="Valet" color="bg-violet-800	">
+            <Library
+              link="https://laravel.com/docs/9.x/valet"
+              title="Valet"
+              color="bg-violet-800	"
+            >
               The fastest Laravel local development experience - exclusively for
               macOS.
             </Library>

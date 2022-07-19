@@ -3,9 +3,11 @@ const Library = (props) => {
   let titleLow = title.toLowerCase();
   const src = `https://laravel.com/img/ecosystem/${titleLow}.min.svg`;
   return (
-    <div
+    <a
+      href={props.link}
       className={
-        "border border-gray-200 px-4 flex " + (props.pb ? "pt-4 pb-6" : "py-4")
+        "border border-gray-200/60 px-4 flex " +
+        (props.pb ? "pt-4 pb-6" : "py-4")
       }
     >
       <div
@@ -20,7 +22,7 @@ const Library = (props) => {
         <h3 className="text-base text-[#232323]">{props.title}</h3>
         <p className="mt-1">{props.children}</p>
       </div>
-    </div>
+    </a>
   );
 };
 export const LibraryTwo = (props) => {
@@ -28,7 +30,7 @@ export const LibraryTwo = (props) => {
   let titleLow = title.toLowerCase();
   const src = `https://laravel.com/img/ecosystem/${titleLow}.min.svg`;
   return (
-    <div className={"px-2 py-4 flex "}>
+    <a href={props.link} className={"px-2 py-4 flex "}>
       <div
         className={
           props.color +
@@ -41,7 +43,7 @@ export const LibraryTwo = (props) => {
         <h3 className="text-base text-[#232323]">{props.title}</h3>
         <p className="mt-1">{props.children}</p>
       </div>
-    </div>
+    </a>
   );
 };
 

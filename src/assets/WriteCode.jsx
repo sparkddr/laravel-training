@@ -1,7 +1,7 @@
 const WriteCode = () => {
   return (
     <svg
-      className=" md:m-auto"
+      className=" mx-auto translate-x-20 md:translate-x-0"
       width="587"
       height="342"
       viewBox="0 0 587 342"

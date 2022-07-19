@@ -84,8 +84,8 @@ function Home() {
         <Cube className="hidden lg:block lg: top-16 lg:right-1/3" />
         <Cube className="hidden lg:block lg:-right-2 lg:bottom-20" />
         <Cube className="hidden lg:block lg:top-52 lg:right-2/4" />
-        <div className="relative lg:flex lg:flex-row-reverse justify-between max-w-7xl lg:m-auto pl-5 overflow-hidden ">
-          <div className="ml-10  mb-10 -translate-x-20 sm:translate-x-0 lg:translate-x-20">
+        <div className="relative flex lg:flex-row-reverse flex-col items-center  justify-between max-w-7xl lg:m-auto pl-5 overflow-hidden ">
+          <div className="ml-10  mb-10 -translate-x-4e sm:translate-x-0 sm:block sm:w-full lg:translate-x-20 flex w-[700px] justify-end ">
             <WriteCode />
           </div>
           <div className="sm:max-w-lg sm:m-auto lg:mx-0 ">

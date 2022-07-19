@@ -6,7 +6,7 @@ import youtube from "../assets/ICONS/Social/youtube.min.svg";
 
 const Footer = () => {
   return (
-    <footer className="px-5 pt-40 max-w-screen-2xl m-auto">
+    <footer className="px-5 pt-40 xl:pt-64 max-w-screen-2xl m-auto">
       <div className="border-b border-gray-300 pb-8">
         <img src={Logo} alt="logo" className="w-16" />
         <div className="mt-12 lg:grid grid-cols-6 gap-10 ">
